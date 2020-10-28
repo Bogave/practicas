@@ -104,10 +104,22 @@ background-color:#003245;
 }
 
 .sticky_header_content .sticky_header_left{
+    float: left;
+    width: 20%;
+}
+
+.sticky_header_left img{
+    height: 70px;
+    padding-left: 20px;
+    vertical-align: middle;
+}
+
+
+.sticky_header_content .sticky_header_center{
 float: left;
-width:55%;
+width:60%;
 color:#fff;
-text-align:right;
+text-align:center;
 margin-top: 25px;
 }
 
@@ -126,7 +138,7 @@ margin-top: 10px;
 
 .sticky_header_content .sticky_header_rigth{
 float: right;
-width:45%;
+width:20%;
 color:#fff;
 text-align:right;
 }
