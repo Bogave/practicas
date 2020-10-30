@@ -1,0 +1,55 @@
+*{
+margin:0%;
+padding:0%;
+font-family: Verdana, arial, Helvetica, Sans-serif;
+text-decoration:none;
+list-style-type:none;
+color:#383838;
+}
+
+h2{
+color:#52c0cb;
+}
+
+hr{
+margin:1% 0% 3% 0%;
+}
+
+.headertitle{
+width:100%;
+margin:0% auto;
+padding:5% 0%;
+text-align:center;
+background-color:#52c0cb;
+}
+
+.headertitle h1{
+color:#fff;
+font-weight:300;
+}
+
+section{
+width:80%;
+margin:5% auto 10% auto;
+}
+
+
+nav{
+line-height: 0%;
+font-size: 0%;
+}
+
+img{
+display:inline;
+width:23%;
+padding:1%;
+background-color:#fff;
+}
+
+a{
+filter: grayscale(100%);
+}
+
+a:hover{
+filter:none;
+}
