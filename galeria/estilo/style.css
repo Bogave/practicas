@@ -15,6 +15,14 @@ hr{
 margin:1% 0% 3% 0%;
 }
 
+a{
+filter: grayscale(100%);
+}
+
+a:hover{
+filter:none;
+}
+
 .headertitle{
 width:100%;
 margin:0% auto;
@@ -33,23 +41,36 @@ width:80%;
 margin:5% auto 10% auto;
 }
 
-
-nav{
-line-height: 0%;
-font-size: 0%;
+.navheader{
+width:80%;
+margin:1% auto;
 }
 
-img{
-display:inline;
-width:23%;
-padding:1%;
+.navheader a{
+margin-right:10px;
+}
+
+.navheader a:hover{
+color:#52c0cb;
+}
+
+.navsection{
+column-count: 4;
+}
+
+
+.navsection img{
+margin:0.5rem;
+width:100%;
 background-color:#fff;
 }
 
-a{
-filter: grayscale(100%);
+footer{
+width:100%;
+margin:0% auto;
+padding:10% 0%;
+text-align:center;
+background-color:#52c0cb;
+
 }
 
-a:hover{
-filter:none;
-}
