@@ -55,23 +55,15 @@ color:#52c0cb;
 }
 
 .navsection{
-display:flex;
-flex-wrap: wrap;
-align-items:center;
-Justify-content:space-between;
-} 
-
-.image{
-align-self:auto;
-width:24%;
-margin:1% 0px;
+column-count: 4;
 }
 
-.image img{
+
+.navsection img{
+margin:0.5rem;
 width:100%;
 background-color:#fff;
 }
-
 
 footer{
 width:100%;
