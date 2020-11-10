@@ -54,24 +54,32 @@ margin-right:10px;
 color:#52c0cb;
 }
 
-.navsection{
+article{
 display:flex;
-flex-wrap: wrap;
-align-items:center;
-Justify-content:space-between;
-} 
-
-.image{
-align-self:auto;
-width:24%;
-margin:1% 0px;
+flex-direction: row;
+justify-content:space-between;
 }
 
-.image img{
+.navsection{
+display:flex;
+flex-direction:column;
+width:25%;
+} 
+
+.navsection > div{
+margin:1%;
+}
+
+.navsection img{
 width:100%;
 background-color:#fff;
 }
 
+.navsection > a{
+color:#fff;
+}
+
+a.lb-close{color:#fff;}
 
 footer{
 width:100%;
