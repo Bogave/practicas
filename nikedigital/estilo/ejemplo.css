@@ -88,5 +88,9 @@ text-decoration:line-through;
 
 }
 
+.navheader > a:hover{
+margin-left: 5px;
+}
+
 
 
