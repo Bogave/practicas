@@ -67,10 +67,7 @@ width:25%;
 } 
 
 .navsection > div{
-position: relative;
 margin:1%;
-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-margin-bottom: 1%;
 }
 
 .navsection img{
@@ -78,6 +75,9 @@ width:100%;
 background-color:#fff;
 }
 
+.containeroverlay{
+position: relative;
+}
 
 .overlay {
   position: absolute;
@@ -92,7 +92,8 @@ background-color:#fff;
   background-color: #008CBA;
 }
 
-.navsection:hover .overlay {
+
+.containeroverlay:hover .overlay {
   opacity: 1;
 }
 
