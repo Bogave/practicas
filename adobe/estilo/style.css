@@ -1,0 +1,113 @@
+*{
+margin:0%;
+padding:0%;
+font-family: Verdana, arial, Helvetica, Sans-serif;
+text-decoration:none;
+list-style-type:none;
+}
+
+header{
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	padding: 0 10% 0% 10%;
+}
+
+header img{
+	width: 5%;
+	position: absolute;
+}
+
+nav {
+	text-align: right;
+	padding:1% 0;
+}
+
+header nav > a{
+	margin-left:2%;
+	color:#fff;
+}
+
+
+h1{
+	font-weight: 100;
+	font-size: 20pt;
+	margin:1% 0;
+}
+
+h2{
+	font-weight: 100;
+}
+
+header .article_uno{
+	width: 50%;
+	padding-top:10%;
+}
+
+header .article_dos{
+	width: 50%;
+    padding:10% 0 2% 50%;
+}
+
+.article_dos > nav{
+text-align: left;
+}
+
+.article_dos img{
+	float: left;
+	width: 20px;
+}
+
+figcaption{
+	font-weight:bold;
+	padding:1% 0;
+}
+
+
+
+main{
+	background-color: #383838;
+	padding: 1% 10%;
+}
+
+main > nav{
+	text-align: left;
+	color:#fff;
+}
+
+main nav > a{
+	color:#fff;
+	margin: 0 1%;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #343434;
+    padding: 1% 2%;
+}
+
+
+footer section{
+	margin: 2% 2%;
+	width: 20%;
+	color: #fff;
+}
+
+footer h3{
+	font-weight: 100;
+}
+ 
+footer p{
+
+	font-size: 10pt;
+}
+
+footer section  img{
+	float: left;
+	width: 60px;
+	height:60px;
+	margin-right: 2%;
+}
