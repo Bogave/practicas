@@ -52,7 +52,7 @@ header .article_dos{
 text-align: left;
 }
 
-.article_dos img{
+.article_dos a > img{
 	float: left;
 	width: 20px;
 }
