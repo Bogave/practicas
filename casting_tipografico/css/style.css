@@ -3,10 +3,21 @@ margin:0px;
 padding:0px;
 text-decoration:none;
 list-style-type:none;
+font-family: sans-serif;
 }
+
 body{
-	background-color: #a7a7a7;
+	background-color: #a8a8a8;
 }
+
+header h1{
+text-align: center;
+padding: 5% 0%; 
+font-family: 'Abril Fatface', cursive;
+
+
+}
+
 
 section{
 padding:1% 10%;
@@ -53,4 +64,18 @@ font-family: 'Nerko One', cursive;
 
 article .playfair{
 font-family: 'Playfair Display', serif;
+}
+
+footer p{
+	text-align: center;
+	padding: 5%;
+	font-size: 2em;
+}
+
+footer a{
+	color: #fff;
+}
+
+footer a:hover{
+	color: red;
 }
