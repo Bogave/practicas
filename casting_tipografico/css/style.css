@@ -1,0 +1,52 @@
+*{
+margin:0px;
+padding:0px;
+text-decoration:none;
+list-style-type:none;
+}
+
+
+section{
+padding:1% 10%;
+display:flex;
+flex-direction:row;
+}
+
+article{
+width:30%;
+margin:1%;
+}
+
+article h1{
+margin-bottom:1%;
+font-size:30pt;
+}
+article p{
+font-size:16pt;
+}
+
+article .abril{
+font-family: 'Abril Fatface', cursive;
+}
+
+article .castoro{
+font-family: 'Castoro', serif;
+}
+
+article .cinzel{
+font-family: 'Cinzel', serif;
+}
+
+
+
+article .mono{
+font-family: 'Major Mono Display', monospace;
+}
+
+article .nerko{
+font-family: 'Nerko One', cursive;
+}
+
+article .playfair{
+font-family: 'Playfair Display', serif;
+}
