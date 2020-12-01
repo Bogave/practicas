@@ -4,7 +4,9 @@ padding:0px;
 text-decoration:none;
 list-style-type:none;
 }
-
+body{
+	background-color: #a7a7a7;
+}
 
 section{
 padding:1% 10%;
@@ -15,6 +17,8 @@ flex-direction:row;
 article{
 width:30%;
 margin:1%;
+padding: 1%;
+background-color: #fff;
 }
 
 article h1{
