@@ -1,41 +1,32 @@
 body{
-margin:1%;
+	padding: 1%;
 }
+
 
 nav ul{
-	height: 100%;
-	text-align: center;
-	border: solid 1px #000;
-	padding: 10% 0%;
-	background-color: #f7f7f7;
+	height:100%;
+	background-color: #f5f5f5;
+	border:solid 1px #000;
+	text-align:center;
+	padding-top: 10%;
 }
 
-header{
-margin-bottom:1%;
-text-align:center;
-}
 
-header h1{
-border: solid 1px #000;
-padding:2% 0%;
-background-color: #f7f7f7;
-}
-
-section article{
-	height: 100%;
-	text-align: left;
-	border: solid 1px #000;
+section article {
 	padding: 10%;
-	background-color: #f7f7f7;
+	background-color: #f5f5f5;
+	border:solid 1px #000;
 }
 
 
 footer h3{
-	border: solid 1px #000;
 	padding: 1%;
 	margin-top: 1%;
-	background-color: #f7f7f7;
+	background-color: #f5f5f5;
+	border: solid 1px #000;
 }
+
+
 
 
 @media (min-width: 576px) { ... }
