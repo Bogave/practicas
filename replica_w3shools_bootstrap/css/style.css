@@ -1,0 +1,65 @@
+body{
+margin:1%;
+}
+
+nav ul{
+	height: 100%;
+	text-align: center;
+	padding: 10% 0%;
+}
+
+nav li{
+	margin:5px;
+	background-color: #f7f7f7;
+}
+
+
+nav li a{
+color:#000;
+}
+
+header{
+margin-bottom:1%;
+text-align:center;
+}
+
+header h1{
+padding:2% 0%;
+color:#a5a5a5;
+background-color: #f7f7f7;
+}
+
+section article{
+	height: 100%;
+	text-align: left;
+	padding: 2%;
+	color:#a5a5a5;
+}
+
+section .derecha{
+	color: #a5a5a5;
+	padding: 10%;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+
+
+footer h4{
+	text-align: center;
+	padding: 1%;
+	margin-top: 1%;
+	background-color: #f7f7f7;
+	color: #a5a5a5;
+}
+
+
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
