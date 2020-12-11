@@ -26,12 +26,30 @@ background-color: #f7f7f7;
 }
 
 
+.texto{
+padding: 10%;
+border: solid 1px #000;
+background-color: #f7f7f7;
+}
 
+.publi{
+text-align: center;
+padding: 10%;
+border: solid 1px #000;
+background-color: #f7f7f7;
+
+}
+
+
+footer{
+	margin-top: 1%;
+}
 
 footer h3{
 	border: solid 1px #000;
 	padding: 1%;
 	background-color: #f7f7f7;
+
 }
 
 
