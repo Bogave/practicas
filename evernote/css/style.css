@@ -1,0 +1,83 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	list-style-type: none;
+	font-family: sans-serif;
+}
+
+header{
+	margin-top: 2%;
+}
+
+
+nav{
+	font-size: 10pt;
+	color: #11da00;
+	text-align: center;
+}
+
+
+nav a{
+	color: #11da00;
+}
+
+nav a:hover{
+	color: #0e9b02;
+	text-decoration: none;
+}
+
+
+
+
+header p{
+	font-size: 8pt;
+	padding: 0% 0% 0% 70%; 
+	color:#11da00;
+}
+
+section{
+	margin:2% 0%;
+	align-content: center;
+}
+
+
+section .evernote{
+	padding: 10% 0%;
+}
+
+section h3{
+	margin-top: 5%;
+	font-size: 9pt;
+	color: #11da00;
+	text-align: center;
+}
+
+
+article{
+	margin-bottom: 2%;
+}
+
+footer{
+	margin: 5% 0%;
+}
+
+.footer_right{
+	text-align: center;
+}
+
+.footer_left p{
+font-size: 9pt;
+}
+
+
+
+
+
+
+
+
+
+
+
