@@ -17,6 +17,16 @@ background-image: url(../imgs/fondo.jpg);
 background-size: cover;
 }
 
+#demo img{
+	width: 100%;
+	height: 100%;
+}
+
+.navheader{
+	padding: 1% 0%;
+	background-color: #383838;
+}
+
 
 .navheader_II{
 color:#fff;
