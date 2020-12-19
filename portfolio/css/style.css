@@ -1,0 +1,39 @@
+*{
+margin:0%;
+padding:0%;
+text-decoration:none;
+list-style-type:none;
+font-family:sans-serif;
+background-color:#202020;
+color:#f7f7f7;
+}
+
+
+header{
+	padding:1% 5%;
+	top:0;
+}
+
+
+header #logo{
+font-size:40pt;
+font-weight:600;
+}
+
+nav{
+padding:2% 0%;
+}
+
+
+section{
+padding:10% 5% 5% 5%;
+}
+
+section article{
+padding:1%;
+}
+
+
+footer{
+padding-bottom:10%;
+}
