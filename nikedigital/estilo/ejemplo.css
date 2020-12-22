@@ -5,7 +5,6 @@ font-family: Verdana, arial, Helvetica, Sans-serif;
 text-decoration:none;
 list-style-type:none;
 color: #383838;
-background-color: #FFE4CF;
 }
 
 h1{font-size:25pt;}
@@ -63,12 +62,18 @@ text-align:center;
 margin:20% 0% 0% 0%; 
 }
 
+nav a{
+	background-color: #383838;
+}
+
 a.conenlace:hover {
+	
   text-decoration:underline;
 } 
 
 
 a.sinenlace:hover {
+background-color: #383838;
 text-decoration:line-through;
 }
 
@@ -93,6 +98,5 @@ position: relative;
 bottom: 5px;
 left: 5px;
 }
-
 
 
