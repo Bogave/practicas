@@ -12,6 +12,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous"></script>
 
 </head>
 
@@ -58,7 +60,7 @@
 		
 
 			<article class="col-12 col-sm-2">
-			<a href="#"><figure class="figure">
+			<a href="../img/imgtetrantologia/1000.png" data-toggle="Lightbox"><figure class="figure">
   			<img src="../img/imgtetrantologia/1000.png" class="figure-img img-fluid rounded" alt="...">
 			</figure>
 			</a>
@@ -419,6 +421,14 @@
 	<footer>
 	</footer>
 
+<script>
+	
+	$(document).on('click', '[data-toggle="Lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+
+</script>
 
 
 
