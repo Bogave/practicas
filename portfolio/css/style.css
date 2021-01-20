@@ -4,8 +4,11 @@ padding:0%;
 text-decoration:none;
 list-style-type:none;
 font-family:sans-serif;
-background-color:#202020;
 color:#f7f7f7;
+}
+
+body{
+  background-color:#202020;
 }
 
 #container{
@@ -16,7 +19,7 @@ header{
 	position: fixed;
 	top:0;
 	width: 100%;
-	padding:1% 5%;
+	padding:0% 5%;
   z-index: 1;
 }
 
