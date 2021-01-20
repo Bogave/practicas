@@ -17,7 +17,7 @@ header{
 	top:0;
 	width: 100%;
 	padding:1% 5%;
-	
+  z-index: 1;
 }
 
 header #logo{
@@ -46,6 +46,45 @@ padding:1%;
 
 footer{
 padding-bottom:10%;
+}
+
+.containeroverlay{
+position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #202020;
+}
+
+.text {
+  color: white;
+  background-color: #202020;
+  font-size: 30px;
+  position: absolute;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+
+}
+
+.containeroverlay:hover .overlay {
+    opacity: 0.6;
+}
+.containeroverlay:hover .text{
+    opacity: 1;
+    background-color:transparent; 
 }
 
 
